@@ -45,6 +45,7 @@ async function getData(){
     return data;
 }
 
+
 document.querySelector('.btn').addEventListener( 'click' ,async () => {
     const data = await getData();
 
